@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#658000" height="350.0" layoutX="50.0" layoutY="25.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="500.0" />
+      <Line endY="378.0" layoutX="300.0" layoutY="-3.0" startY="28.000003814697266" stroke="WHITE" />
+      <Circle fill="#6f8000" layoutX="299.0" layoutY="176.0" radius="50.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#658000" height="200.0" layoutX="50.0" layoutY="91.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#658000" height="200.0" layoutX="450.0" layoutY="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="100.0" />
+      <Line endX="-1.0" endY="-73.00001525878906" layoutX="300.0" layoutY="199.0" startY="22.599990844726562" stroke="WHITE" strokeWidth="2.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5b8000" height="148.0" layoutX="50.0" layoutY="118.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="64.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5b8000" height="148.0" layoutX="486.0" layoutY="126.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="64.0" />
+   </children>
+</AnchorPane>

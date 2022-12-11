@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.comp1008.com1008tuedayspmgui.TaskView">
+   <children>
+      <BorderPane layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0">
+         <left>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="158.0" layoutX="-207.0" layoutY="42.0" stroke="BLACK" strokeType="INSIDE" width="607.0" />
+               </children>
+            </Pane>
+         </bottom>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd11f" height="186.0" layoutX="295.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff77" height="194.0" layoutX="-98.0" layoutY="51.0" stroke="BLACK" strokeType="INSIDE" width="393.0" />
+                  <Label layoutX="38.0" layoutY="108.0" text="Center" textFill="WHITE">
+                     <font>
+                        <Font size="41.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+      </BorderPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f2b" height="158.0" layoutX="-7.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="607.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#deff1f" height="186.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Label layoutX="252.0" layoutY="70.0" text="TOP" textFill="WHITE">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
